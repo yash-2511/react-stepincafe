@@ -1,0 +1,263 @@
+// Indian menu items data with categories
+export const menuCategories = [
+  {
+    id: 'starters',
+    name: 'Starters',
+    description: 'Begin your culinary journey with our delectable appetizers',
+    image: 'https://images.pexels.com/photos/5835353/pexels-photo-5835353.jpeg'
+  },
+  {
+    id: 'main-course',
+    name: 'Main Course',
+    description: 'Hearty and flavorful dishes that showcase authentic Indian spices',
+    image: 'https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg'
+  },
+  {
+    id: 'breads',
+    name: 'Breads',
+    description: 'Fresh, handmade breads to complement your meal',
+    image: 'https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg'
+  },
+  {
+    id: 'rice',
+    name: 'Rice & Biryani',
+    description: 'Fragrant rice dishes infused with aromatic spices',
+    image: 'https://images.pexels.com/photos/7437989/pexels-photo-7437989.jpeg'
+  },
+  {
+    id: 'desserts',
+    name: 'Desserts',
+    description: 'Sweet treats to conclude your dining experience',
+    image: 'https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg'
+  },
+  {
+    id: 'beverages',
+    name: 'Beverages',
+    description: 'Refreshing drinks to complement your meal',
+    image: 'https://images.pexels.com/photos/3623488/pexels-photo-3623488.jpeg'
+  }
+]
+
+export const menuItems = [
+  // Starters
+  {
+    id: 's1',
+    name: 'Paneer Tikka',
+    description: 'Marinated cottage cheese cubes, grilled to perfection in a tandoor.',
+    price: 299,
+    image: 'https://images.pexels.com/photos/9797029/pexels-photo-9797029.jpeg',
+    category: 'starters',
+    isVegetarian: true,
+    isSpicy: true,
+  },
+  {
+    id: 's2',
+    name: 'Samosa',
+    description: 'Crispy pastry filled with spiced potatoes and peas. Served with mint chutney.',
+    price: 99,
+    image: 'https://images.pexels.com/photos/14285473/pexels-photo-14285473.jpeg',
+    category: 'starters',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 's3',
+    name: 'Chicken Tikka',
+    description: 'Tender chicken pieces marinated with yogurt and spices, grilled in tandoor.',
+    price: 349,
+    image: 'https://images.pexels.com/photos/12842398/pexels-photo-12842398.jpeg',
+    category: 'starters',
+    isVegetarian: false,
+    isSpicy: true,
+  },
+  {
+    id: 's4',
+    name: 'Dahi Puri',
+    description: 'Crispy puris filled with potatoes, topped with yogurt, chutneys, and sev.',
+    price: 180,
+    image: 'https://images.pexels.com/photos/8908748/pexels-photo-8908748.jpeg',
+    category: 'starters',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  
+  // Main Course
+  {
+    id: 'm1',
+    name: 'Butter Chicken',
+    description: 'Tender chicken cooked in a rich tomato and butter gravy.',
+    price: 399,
+    image: 'https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg',
+    category: 'main-course',
+    isVegetarian: false,
+    isSpicy: false,
+  },
+  {
+    id: 'm2',
+    name: 'Paneer Butter Masala',
+    description: 'Cottage cheese cubes in a creamy tomato sauce.',
+    price: 349,
+    image: 'https://images.pexels.com/photos/5695879/pexels-photo-5695879.jpeg',
+    category: 'main-course',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'm3',
+    name: 'Chole Bhature',
+    description: 'Spicy chickpea curry served with deep-fried bread.',
+    price: 249,
+    image: 'https://images.pexels.com/photos/8311376/pexels-photo-8311376.jpeg',
+    category: 'main-course',
+    isVegetarian: true,
+    isSpicy: true,
+  },
+  {
+    id: 'm4',
+    name: 'Lamb Roganjosh',
+    description: 'Aromatic Kashmiri curry with tender pieces of lamb.',
+    price: 499,
+    image: 'https://images.pexels.com/photos/6260921/pexels-photo-6260921.jpeg',
+    category: 'main-course',
+    isVegetarian: false,
+    isSpicy: true,
+  },
+  {
+    id: 'm5',
+    name: 'Dal Makhani',
+    description: 'Black lentils simmered overnight with butter and cream.',
+    price: 299,
+    image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg',
+    category: 'main-course',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  
+  // Breads
+  {
+    id: 'b1',
+    name: 'Butter Naan',
+    description: 'Soft leavened bread baked in tandoor and brushed with butter.',
+    price: 60,
+    image: 'https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg',
+    category: 'breads',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'b2',
+    name: 'Garlic Naan',
+    description: 'Naan bread topped with fresh garlic and herbs.',
+    price: 70,
+    image: 'https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg',
+    category: 'breads',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'b3',
+    name: 'Tandoori Roti',
+    description: 'Whole wheat bread baked in tandoor.',
+    price: 40,
+    image: 'https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg',
+    category: 'breads',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  
+  // Rice & Biryani
+  {
+    id: 'r1',
+    name: 'Vegetable Biryani',
+    description: 'Fragrant rice cooked with mixed vegetables and aromatic spices.',
+    price: 299,
+    image: 'https://images.pexels.com/photos/7511664/pexels-photo-7511664.jpeg',
+    category: 'rice',
+    isVegetarian: true,
+    isSpicy: true,
+  },
+  {
+    id: 'r2',
+    name: 'Chicken Biryani',
+    description: 'Basmati rice cooked with tender chicken pieces and spices.',
+    price: 349,
+    image: 'https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg',
+    category: 'rice',
+    isVegetarian: false,
+    isSpicy: true,
+  },
+  {
+    id: 'r3',
+    name: 'Jeera Rice',
+    description: 'Steamed basmati rice tempered with cumin seeds.',
+    price: 180,
+    image: 'https://images.pexels.com/photos/8472636/pexels-photo-8472636.jpeg',
+    category: 'rice',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  
+  // Desserts
+  {
+    id: 'd1',
+    name: 'Gulab Jamun',
+    description: 'Deep-fried milk solids soaked in sugar syrup.',
+    price: 120,
+    image: 'https://images.pexels.com/photos/11915788/pexels-photo-11915788.jpeg',
+    category: 'desserts',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'd2',
+    name: 'Rasmalai',
+    description: 'Soft cottage cheese dumplings in sweetened, thickened milk.',
+    price: 150,
+    image: 'https://images.pexels.com/photos/11139552/pexels-photo-11139552.jpeg',
+    category: 'desserts',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'd3',
+    name: 'Gajar Ka Halwa',
+    description: 'Traditional carrot pudding with nuts.',
+    price: 180,
+    image: 'https://images.pexels.com/photos/15431930/pexels-photo-15431930.jpeg',
+    category: 'desserts',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  
+  // Beverages
+  {
+    id: 'bv1',
+    name: 'Masala Chai',
+    description: 'Indian spiced tea with milk.',
+    price: 80,
+    image: 'https://images.pexels.com/photos/5946646/pexels-photo-5946646.jpeg',
+    category: 'beverages',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'bv2',
+    name: 'Mango Lassi',
+    description: 'Refreshing yogurt drink with mango pulp.',
+    price: 120,
+    image: 'https://images.pexels.com/photos/6157059/pexels-photo-6157059.jpeg',
+    category: 'beverages',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+  {
+    id: 'bv3',
+    name: 'Fresh Lime Soda',
+    description: 'Refreshing lime juice with soda water. Choice of sweet, salt or mixed.',
+    price: 90,
+    image: 'https://images.pexels.com/photos/5947041/pexels-photo-5947041.jpeg',
+    category: 'beverages',
+    isVegetarian: true,
+    isSpicy: false,
+  },
+]
